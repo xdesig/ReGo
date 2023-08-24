@@ -2,7 +2,7 @@
 
 #### Docu in Galician language
 
-Controlador/programador de rego con varias salidas y entradas de sensado
+Controlador/programador de rego con varias salidas e entradas de sensado
 
 ## versión 0V3.
 <img src="https://github.com/xdesig/ReGo/blob/master/ReGo_v3/REGO.jpg">
