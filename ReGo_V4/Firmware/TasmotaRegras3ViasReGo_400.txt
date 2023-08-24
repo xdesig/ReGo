@@ -1,0 +1,51 @@
+Tasmota Display
+{"NAME":"ReGo(3)ESP32","GPIO":[227,1,228,1,1,1,229,262,226,1,1,1,1,1184,1,1,0,640,608,1,0,224,1,1,0,0,0,0,225,4706,1,4705,4707,0,0,4704],"FLAG":0,"BASE":1}
+
+
+
+Regras para 3 canles 0 1,2,3 ( Para a anterior canle 1 temos que buscar unha alternativa)
+
+displaymode 0
+
+Rule1   on tele-DHT11#temperature > 28 DO POWER4 ON endon on DHT11#Temperature < 25 DO POWER4 OFF endon
+	on tele-DHT11#temperature < 25 DO POWER5 ON endon on DHT11#Temperature > 28 DO POWER5 OFF endon
+	on ANALOG#A1 > 1300 DO POWER1 ON endon on ANALOG#A1 < 1200 DO POWER1 OFF endon
+        on ANALOG#A2 > 1300 DO POWER2 ON endon on ANALOG#A2 < 1200 DO POWER2 OFF endon
+        on ANALOG#A3 > 1300 DO POWER3 ON endon on ANALOG#A3 < 1200 DO POWER3 OFF endon
+
+
+RULE2 ON tele-DHT11#Temperature DO DisplayText [zs2c1l1] %value% [s2c6l1] C a ENDON 
+      ON ANALOG#A1 DO DisplayText [s2c1l2] %value% [s2c6l2] % T ENDON 
+      ON DHT11#Humidity DO DisplayText  [s1c5l5] %value% % aire ENDON
+
+
+RULE3 ON ANALOG#A4 < 2500 Do POWER6 TOGGLE endon
+      ON power6#state=1 DO rule1 1 endon On power6#state=0 DO rule1 0 endon
+      ON power6#state=0 DO POWER7 OFF endon
+      ON power6#state=1 DO POWER7 ON endon
+      ON power6#state=0 DO POWER1 OFF endon
+      ON power6#state=0 DO POWER2 OFF endon
+      ON power6#state=0 DO POWER3 OFF endon
+      ON power6#state=0 DO POWER4 OFF endon
+      ON power6#state=0 DO POWER5 OFF endon
+
+// Renomear botons
+WebButton4 A
+WebButton5 P
+WebButton6 M
+WebButton7 R
+WebButton8 S
+
+
+
+// Chave:
+WebPassword regando
+
+//*****************************************
+PulseTime<x>	Muestra la cantidad PulseTimerestante en el Relé<x>(x = 0..31) correspondiente
+             <value>. Establece la duración para mantener el Relé<x> ON cuando Power<x> ON se emite el comando. Después de esta cantidad de tiempo, la energía se encenderá OFF.
+             0/ OFF= deshabilitar el uso de PulseTime para Relay<x>
+             1..111= configurar PulseTime para Relay<x> en incrementos de 0,1 segundos
+             112..64900= configurar PulseTime para Relay<x>, compensado por 100, en incrementos de 1 segundo. Agregue 100 al intervalo deseado en segundos, por ejemplo, PulseTime 113= 13 segundos y PulseTime 460= 6 minutos (es decir, 360 segundos)
+             Tenga en cuenta que si tiene más de 8 relés:
+             el tiempo de pulso definido para los relés <1-8> también estará activo para el relé correspondiente <9 -16>.

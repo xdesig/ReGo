@@ -1,0 +1,41 @@
+/*
+ * Configuracion de entadas saidas para ReGo 4.01
+ * xdesig 2023
+ */
+
+
+//*** Entradas ***
+#define KEY 36 //A0     //SPV Entrada teclado 
+
+// sensores humidade
+#define IN_1 39 //SVN  	//Entrada sensor 
+#define IN_2 35      	//Entrada sensor 
+#define IN_3 33        	//Entrada sensor
+#define IN_4 34      	//Entrada sensor
+
+// finais de carrera
+#define IL_1 18      //Entrada Activo baixo 1
+#define IL_2 19      //Entrada Activo baixo 2
+#define IH_1 23      //Entrada Activo alto 1
+#define IH_2 14      //Entrada Activo alto 2 
+
+//*** Salidas ***
+// DTH
+#define DTHpin 17        //Entrada sensor humidade temperatura DTH
+
+// RTC PCF8523 soldado PCF8563!
+#define INT 4         //Interrupción RTC
+
+// Electrovalvúlas
+#define SAL_1 27         // Electrovalvúla  
+#define SAL_2 25         // Electrovalvúla
+#define SAL_3 12  //TD1  // Electrovalvúla 
+#define SAL_4  0         // Electrovalvúla 
+
+// Motores
+#define ACT_1 2       	 // Pechar
+#define ACT_2 15 //TD02  // Abrir
+
+// LED Auto/Manual
+#define RED 10        // RED   (RED = 1 GREEN = 0) SD2
+#define GREEN 9       // GREEN (RED = 0 GREEN = 1) SD3

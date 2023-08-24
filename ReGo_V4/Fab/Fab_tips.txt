@@ -1,0 +1,49 @@
+Base Material: FR-4
+
+Layers: 2
+
+Dimension: 75 mm* 75 mm
+
+PCB Qty: 10
+
+Product Type: Industrial/Consumer electronics
+
+Different Design: 1
+
+Delivery Format: Single PCB
+
+PCB Thickness: 1.6
+
+Impedance Control: no
+
+PCB Color: White
+
+Silkscreen: Black
+
+Via Covering: Tented
+
+Surface Finish: HASL(with lead)
+
+Deburring/Edge rounding: No
+
+Outer Copper Weight: 1 oz
+
+Gold Fingers: No
+
+Flying Probe Test: Fully Test
+
+Castellated Holes: no
+
+Remove Order Number: No
+
+4-Wire Kelvin Test: No
+
+Paper between PCBs: No
+
+Appearance Quality: IPC Class 2 Standard
+
+Confirm Production file: No
+
+Silkscreen Technology: Ink-jet/Screen Printing Silkscreen
+
+Board Outline Tolerance: ±0.2mm(Regular) 
