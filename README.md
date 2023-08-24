@@ -1,19 +1,19 @@
-# NanoClon V 0.01   <img src="https://github.com/xdesig/NanoClon/blob/main/img/ES000027.svg" width="150" align="right">
+# Rego
 
-<img src="https://github.com/xdesig/NanoClon/blob/main/img/nClon_001.png" width="300" align="right">
+#### Docu in Galician language
 
-## initial version.
-Circuit that has everything you need to assemble your mClon-style robot, 
-avoiding having to look for the missing Arduino one from RobotDyn that 
-was used in the ShieldClon version.
+Controlador/programador de rego con varias salidas y entradas de sensado
 
-The components can be SMD or THT, except for the Step-Up circuit/Lipo 
-battery charge controller which is SMD,  with 1206 and 0805 components
-larger than the usual 0603 and 0402).
-You can an option not solder the smd components of the step-up,
-and use a power bank by simply soldering the Bat-Vcc selector on the underside.
+## versión 0V3.
+<img src="https://github.com/xdesig/ReGo/blob/master/ReGo_v3/REGO.jpg">
 
-### [Assembly manual][Man]
+Na versión 3 utilizase un Arduino ProMicro, Ten dúas entradas para sensores de humidade, un DTH11 para sensar a humidade e temperatura ambiental permite controlar oito saídas mediante Mosfets en surtidor común. Conta con un RTC PCF8523T e comunicacións USB e I2C
+
+## versión 0V401.
+<img src="https://github.com/xdesig/ReGo/blob/master/ReGo_V4/Caixa_3D/ReGo_401_.png">
+
+Aqui xa temos un ESP-WROOM-32, con comunicación WiFi, ten unha pantalla oled 128x64 pix, unha botoeira analóxica de cinco pulsadores, catro entradas para sensores capacitivos, dúas entradas activas a nivel alto e dúas entradas activas a nivel baixo, que poden ser usadas como finais de carreira ou para outos fins, ten unha entrada para sensor tipo DHT
+conta conun RTC PCF8523T, conta con catro saídas a SSR (Mosfet) de 1A/30V ac ou DC dedicadas xeralmente a activas as electrovalvulas, dúas saídas en surtidor común 2A/30V.
 
 #### Deseñado en Estrimia con agarimo.
 
@@ -31,8 +31,6 @@ directory there are instructions to order yourself.
 
 
 <!-- links -->
-[Man]: https://github.com/xdesig/NanoClon/blob/main/docs/nClon_001_Montaxe.pdf
-[tecnoloxia.org]: https://tecnoloxia.org/mclon/que-e-mclon/
 [CERN-OHL-W]: https://ohwr.org/cern_ohl_w_v2.pdf
 [TWI01]: https://twitter.com/xdesig
-[provider]: https://www.pcbway.com/project/shareproject/W50475ASJ144_NanoClon_001_gerber_f511f448.html
+[provider]: https://www.pcbway.com/project/shareproject/Controlador_de_ReGo_V401_bd0da5d6.html
