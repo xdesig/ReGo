@@ -6,12 +6,12 @@
 
 Controlador/programador de rego con varias saidas e entradas de sensado
 
-## [versión 0V3.][ReGo0v3]
+## [Versión 0V3.][ReGo0v3]
 <img src="https://github.com/xdesig/ReGo/blob/master/ReGo_v3/REGO.jpg">
 
 Na versión 3 utilizase un Arduino ProMicro, Ten dúas entradas para sensores de humidade, un DTH11 para sensar a humidade e temperatura ambiental permite controlar oito saídas mediante Mosfets en surtidor común. Conta con un RTC PCF8523T e comunicacións USB e I2C
 
-## [versión 0V401.][ReGo0v4]
+## [Versión 0V401.][ReGo0v4]
 <img src="https://github.com/xdesig/ReGo/blob/master/ReGo_V4/Caixa_3D/ReGo_401_.png">
 
 Aqui xa temos un ESP-WROOM-32, con comunicación WiFi, ten unha pantalla oled 128x64 pix, unha botoeira analóxica de cinco pulsadores, catro entradas para sensores capacitivos, dúas entradas activas a nivel alto e dúas entradas activas a nivel baixo, que poden ser usadas como finais de carreira ou para outos fins, ten unha entrada para sensor tipo DHT
