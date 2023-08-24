@@ -15,7 +15,7 @@ Na versión 3 utilizase un Arduino ProMicro, Ten dúas entradas para sensores de h
 <img src="https://github.com/xdesig/ReGo/blob/master/ReGo_V4/Caixa_3D/ReGo_401.png">
 
 Aqui xa temos un ESP-WROOM-32, con comunicación WiFi, ten unha pantalla oled 128x64 pix, unha botoeira analóxica de cinco pulsadores, catro entradas para sensores capacitivos, dúas entradas activas a nivel alto e dúas entradas activas a nivel baixo, que poden ser usadas como finais de carreira ou para outos fins, ten unha entrada para sensor tipo DHT
-conta conun RTC PCF8523T, conta con catro saídas a SSR (Mosfet) de 1A/30V ac ou DC dedicadas xeralmente a activas as electrovalvulas, dúas saídas en surtidor común 2A/30V.
+conta conun RTC PCF8523T, catro saídas a SSR (Mosfet) de 1A/30V ac ou DC dedicadas xeralmente a activar as electrovalvulas, dúas saídas en surtidor común 2A/30V.
 
 * ###  Deseñado en Estrimia con agarimo.
 
