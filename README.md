@@ -19,10 +19,10 @@ conta conun RTC PCF8523T, conta con catro saídas a SSR (Mosfet) de 1A/30V ac ou 
 
 ## Author and license
 * Author: [XDeSIG][TWI01]
-* License:[CERN Open Hardware Licence Version 2 - Weakly Reciprocal][CERN-OHL-W]
+* License: [CERN Open Hardware Licence Version 2 - Weakly Reciprocal][CERN-OHL-W]
 <img src="https://github.com/xdesig/NanoClon/blob/main/img/oshw_facts.svg" width="200" align="left">
 
-
+<br>
 ## To buy boards
 
 Developer don't produce boards to sell. Under [_provider_][provider]
