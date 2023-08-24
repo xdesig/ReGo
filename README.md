@@ -1,8 +1,10 @@
 # Rego
 
-#### Docu in Galician language
 
-Controlador/programador de rego con varias salidas e entradas de sensado
+> [!NOTE]
+> Docu in Galician language
+
+Controlador/programador de rego con varias saidas e entradas de sensado
 
 ## versión 0V3.
 <img src="https://github.com/xdesig/ReGo/blob/master/ReGo_v3/REGO.jpg">
@@ -15,15 +17,14 @@ Na versión 3 utilizase un Arduino ProMicro, Ten dúas entradas para sensores de h
 Aqui xa temos un ESP-WROOM-32, con comunicación WiFi, ten unha pantalla oled 128x64 pix, unha botoeira analóxica de cinco pulsadores, catro entradas para sensores capacitivos, dúas entradas activas a nivel alto e dúas entradas activas a nivel baixo, que poden ser usadas como finais de carreira ou para outos fins, ten unha entrada para sensor tipo DHT
 conta conun RTC PCF8523T, conta con catro saídas a SSR (Mosfet) de 1A/30V ac ou DC dedicadas xeralmente a activas as electrovalvulas, dúas saídas en surtidor común 2A/30V.
 
-#### Deseñado en Estrimia con agarimo.
+* ###  Deseñado en Estrimia con agarimo.
 
 ## Author and license
 * Author: [XDeSIG][TWI01]
 * License: [CERN Open Hardware Licence Version 2 - Weakly Reciprocal][CERN-OHL-W]
 <img src="https://github.com/xdesig/NanoClon/blob/main/img/oshw_facts.svg" width="200" align="left">
 
-<br>
-## To buy boards
+* ### To buy boards
 
 Developer don't produce boards to sell. Under [_provider_][provider]
 directory there are instructions to order yourself.
