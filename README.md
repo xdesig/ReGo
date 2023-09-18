@@ -23,7 +23,7 @@ conta conun RTC PCF8523T, catro saídas a SSR (Mosfet) de 1A/30V ac ou DC dedicad
 ## Author and license
 * Author: [XDeSIG][TWI01]
 * License: [CERN Open Hardware Licence Version 2 - Weakly Reciprocal][CERN-OHL-W]
-<img src="https://github.com/xdesig/NanoClon/blob/main/img/oshw_facts.svg" width="200" align="right">
+<img src="https://github.com/xdesig/NanoClon/blob/main/img/oshw_facts.svg" width="200" align="center">
 
 * Certification: [OSHWA UID ES000038][OSHWA]
 
