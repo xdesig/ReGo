@@ -27,7 +27,7 @@ conta conun RTC PCF8523T, catro saídas a SSR (Mosfet) de 1A/30V ac ou DC dedicad
 
 * Certification: [OSHWA UID ES000038][OSHWA]
 
-<img src="https://github.com/xdesig/ReGo/blob/master/ReGo_V4/Electronica/certification-mark-ES000038-stacked.svg" width="200" align="center">
+<img src="https://github.com/xdesig/ReGo/blob/master/ReGo_V4/Electronica/certification-mark-ES000038-stacked.png" width="200" align="center">
 
 * ### To buy boards
 
